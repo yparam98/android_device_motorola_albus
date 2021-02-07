@@ -10,6 +10,8 @@ LOCAL_CERTIFICATE := platform
 LOCAL_PROPRIETARY_MODULE := true
 LOCAL_USE_AAPT2 := true
 
+LOCAL_SDK_VERSION := system_current
+
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-support-v7-appcompat \
     android-support-v7-preference \
